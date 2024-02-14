@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.container {
+  border: 2px solid #7f7f7f;
+  width: 700px;
+  margin: 50px auto;
+}
+.product-title {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.shipping {
+  fond-weight: bold;
+  color: #777;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+button {
+  background-color: black;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
+}
+
+button:hover {
+  color: #7f7f7f;
+  background-color: #fff;
+  width: 100%;
+}
+p {
+  color: black;
+}
+.price {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.more:link {
+  color: black;
+}
+.more:hover,
+.more:active {
+  text-decoration: none;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+.details-list li {
+  margin-bottom: 10px;
+}
+.details-list li:last-child {
+  margin-bottom: 0;
+}
